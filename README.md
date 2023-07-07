@@ -1,6 +1,6 @@
 # GraphQl-Sample
 - Base URI https://www.predic8.de/fruit-shop-graphql
-- Request body
+- Request body_
 query ($id: String!, $price: Float!) {
   products(id: $id, price: $price) {
     name
@@ -16,7 +16,7 @@ query ($id: String!, $price: Float!) {
 }
 
 
--Response body
+-Response body_
 {
   "data": {
     "products": [
@@ -35,7 +35,7 @@ query ($id: String!, $price: Float!) {
   }
 }
 
-- Query variables
+- Query variables_
 {
   "id":"7",
   "price": 7.3
