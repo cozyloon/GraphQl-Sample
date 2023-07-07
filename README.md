@@ -16,7 +16,7 @@ query ($id: String!, $price: Float!) {
 }
 
 
--Response body<br />
+- Response body<br />
 {
   "data": {
     "products": [
